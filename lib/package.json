@@ -1,0 +1,51 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "test-angular-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundles/test-angular-lib.umd.js",
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/animations": "^8.1.0",
+    "@angular/common": "^8.1.0",
+    "@angular/compiler": "^8.2.0",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.1.0",
+    "@angular/forms": "^8.1.0",
+    "@angular/platform-browser": "^8.1.0",
+    "@angular/platform-browser-dynamic": "^8.1.0",
+    "@angular/router": "^8.1.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^6.5.2",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular/animations": "^8.1.0",
+    "@angular/common": "^8.1.0",
+    "@angular/compiler": "^8.2.0",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.1.0",
+    "@angular/forms": "^8.1.0",
+    "@angular/platform-browser": "^8.1.0",
+    "@angular/platform-browser-dynamic": "^8.1.0",
+    "@angular/router": "^8.1.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^6.5.2",
+    "ng-packagr": "^5.7.1",
+    "typescript": "~3.4.5",
+    "zone.js": "~0.9.1"
+  },
+  "module": "fesm5/test-angular-lib.js",
+  "es2015": "fesm2015/test-angular-lib.js",
+  "esm5": "esm5/test-angular-lib.js",
+  "esm2015": "esm2015/test-angular-lib.js",
+  "fesm5": "fesm5/test-angular-lib.js",
+  "fesm2015": "fesm2015/test-angular-lib.js",
+  "typings": "test-angular-lib.d.ts",
+  "metadata": "test-angular-lib.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

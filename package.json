@@ -1,0 +1,48 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "test-angular-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/bundles/test-angular-lib.umd.js",
+  "scripts": {
+    "build": "ng-packagr -p package.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/animations": "^8.1.0",
+    "@angular/common": "^8.1.0",
+    "@angular/compiler": "^8.2.0",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.1.0",
+    "@angular/forms": "^8.1.0",
+    "@angular/platform-browser": "^8.1.0",
+    "@angular/platform-browser-dynamic": "^8.1.0",
+    "@angular/router": "^8.1.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^6.5.2",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular/animations": "^8.1.0",
+    "@angular/common": "^8.1.0",
+    "@angular/compiler": "^8.2.0",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.1.0",
+    "@angular/forms": "^8.1.0",
+    "@angular/platform-browser": "^8.1.0",
+    "@angular/platform-browser-dynamic": "^8.1.0",
+    "@angular/router": "^8.1.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^6.5.2",
+    "ng-packagr": "^5.7.1",
+    "typescript": "~3.4.5",
+    "zone.js": "~0.9.1"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    },
+    "dest": "lib"
+  }
+}
