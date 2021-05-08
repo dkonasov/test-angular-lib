@@ -35,7 +35,7 @@
     "@angular/router": "^8.1.0",
     "core-js": "^2.4.1",
     "rxjs": "^6.5.2",
-    "ng-packagr": "^5.7.1",
+    "ng-packagr": "^10.1.1",
     "typescript": "~3.4.5",
     "zone.js": "~0.9.1"
   },
